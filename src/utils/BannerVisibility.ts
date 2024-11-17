@@ -4,16 +4,27 @@ interface UseBannerVisibilityOptions {
   expiration?: number; // Expiration time in milliseconds
 }
 
+interface StoredBannerData {
+  timestamp: number; // Timestamp when the banner was hidden
+}
+
 const useBannerVisibility = (
   storageKey: string,
   options: UseBannerVisibilityOptions = {}
 ): [boolean, Dispatch<SetStateAction<boolean>>] => {
-  const [showBanner, setShowBanner] = useState<boolean>(() => {
+  const getStoredBannerData = (): StoredBannerData | null => {
     const storedValue = localStorage.getItem(storageKey);
-    if (storedValue) {
-      const { timestamp } = JSON.parse(storedValue);
-      // Check if the item has expired
-      if (options.expiration && Date.now() > timestamp + options.expiration) {
+    return storedValue ? JSON.parse(storedValue) : null;
+  };
+
+  const isBannerExpired = (timestamp: number): boolean => {
+    return options.expiration ? Date.now() > timestamp + options.expiration : false;
+  };
+
+  const [showBanner, setShowBanner] = useState<boolean>(() => {
+    const storedData = getStoredBannerData();
+    if (storedData) {
+      if (isBannerExpired(storedData.timestamp)) {
         localStorage.removeItem(storageKey);
         return true; // Show the banner if expired
       }
@@ -23,29 +34,32 @@ const useBannerVisibility = (
   });
 
   const updateBannerVisibility = () => {
-    const storedValue = localStorage.getItem(storageKey);
-    if (!storedValue) {
+    const storedData = getStoredBannerData();
+    if (!storedData) {
       setShowBanner(true);
+    } else if (isBannerExpired(storedData.timestamp)) {
+      localStorage.removeItem(storageKey);
+      setShowBanner(true); // Show if expired
     } else {
-      const { timestamp } = JSON.parse(storedValue);
-      if (options.expiration && Date.now() > timestamp + options.expiration) {
-        localStorage.removeItem(storageKey);
-        setShowBanner(true); // Show if expired
-      } else {
-        setShowBanner(false); // Don't show if still valid
-      }
+      setShowBanner(false); // Don't show if still valid
     }
   };
 
   useEffect(() => {
-    // Update banner visibility when local storage changes
-    window.addEventListener("storage", updateBannerVisibility);
-
     // Initial check
     updateBannerVisibility();
 
+    // Update banner visibility when local storage changes
+    const handleStorageChange = (event: StorageEvent) => {
+      if (event.key === storageKey) {
+        updateBannerVisibility();
+      }
+    };
+
+    window.addEventListener("storage", handleStorageChange);
+
     return () => {
-      window.removeEventListener("storage", updateBannerVisibility);
+      window.removeEventListener("storage", handleStorageChange);
     };
   }, [storageKey, options.expiration]);
 
