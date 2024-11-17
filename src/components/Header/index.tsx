@@ -12,7 +12,7 @@ const words = [
   "Smart Helper"
 ];
 
-const ModernHeader = () => {
+const Header = () => {
   const [currentWord, setCurrentWord] = useState(words[0]);
   const [index, setIndex] = useState(0);
 
@@ -117,4 +117,4 @@ const ModernHeader = () => {
   );
 };
 
-export default ModernHeader;
+export default Header;
