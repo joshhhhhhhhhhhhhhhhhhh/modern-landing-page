@@ -133,4 +133,14 @@ const Categories = [
   "Social Media",
 ];
 
+
+const Categories = [
+  "Copywriting",
+  "Design",
+  "Development",
+  "Marketing",
+  "Video",
+  "Social Media",
+];
+
 export default Product;
