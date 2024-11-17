@@ -20,43 +20,43 @@ const Pricing = () => {
   const [currentBilling, setCurrentBilling] = useState("monthly");
 
   const plans = [
-    {
-      name: "Basic",
-      price: currentBilling === "monthly" ? "$9" : "$90",
-      features: [
-        "AI Generator: Optimize with advanced AI technology",
-        "Dashboard: User-friendly performance monitoring",
-        "Secure Payments: Safe, encrypted transactions",
-        "Multilang: Basic multi-language support",
-        "Ready-to-use templates: Limited access",
-        "Support Centre: Standard support",
-      ],
-    },
-    {
-      name: "Pro",
-      price: currentBilling === "monthly" ? "$19" : "$190",
-      features: [
-        "AI Generator: Enhanced AI capabilities",
-        "Dashboard: Advanced analytics and insights",
-        "Secure Payments: Premium transaction security",
-        "Multilang: Extended language support",
-        "Ready-to-use templates: Comprehensive template library",
-        "Support Centre: Priority support",
-      ],
-    },
-    {
-      name: "Enterprise",
-      price: currentBilling === "monthly" ? "$99" : "$990",
-      features: [
-        "AI Generator: Customizable AI solutions",
-        "Dashboard: Full-featured command center",
-        "Secure Payments: Enterprise-level security",
-        "Multilang: Full range of language support",
-        "Ready-to-use templates: Exclusive, customizable templates",
-        "Support Centre: 24/7 premium support",
-      ],
-    },
-  ];
+  {
+    name: "Basic",
+    price: currentBilling === "monthly" ? "$9" : "$90",
+    features: [
+      "🔍 **AI Generator**: Optimize your content with advanced AI technology.",
+      "📊 **Dashboard**: User-friendly interface for performance monitoring.",
+      "🔒 **Secure Payments**: Safe and encrypted transactions.",
+      "🌍 **Multilanguage Support**: Basic support for multiple languages.",
+      "📑 **Ready-to-Use Templates**: Limited access to pre-designed templates.",
+      "🛠️ **Support Centre**: Standard customer support.",
+    ],
+  },
+  {
+    name: "Pro",
+    price: currentBilling === "monthly" ? "$19" : "$190",
+    features: [
+      "⚙️ **AI Generator**: Enhanced capabilities for more complex tasks.",
+      "📈 **Dashboard**: Advanced analytics and insights for better decision-making.",
+      "🔒 **Secure Payments**: Premium security for all transactions.",
+      "🌍 **Extended Multilanguage Support**: Support for a wider range of languages.",
+      "📑 **Comprehensive Template Library**: Access to a vast library of templates.",
+      "🚀 **Support Centre**: Priority support for faster assistance.",
+    ],
+  },
+  {
+    name: "Enterprise",
+    price: currentBilling === "monthly" ? "$99" : "$990",
+    features: [
+      "🛠️ **Customizable AI Solutions**: Tailored AI solutions to fit your business needs.",
+      "📊 **Full-Featured Dashboard**: Command center with all necessary tools and insights.",
+      "🔒 **Enterprise-Level Security**: Top-tier security measures for your transactions.",
+      "🌍 **Full Multilanguage Support**: Comprehensive support for all languages.",
+      "📑 **Exclusive Customizable Templates**: Access to unique templates tailored to your brand.",
+      "⏰ **24/7 Premium Support**: Around-the-clock support for critical issues.",
+    ],
+  },
+];
 
   return (
     <Flex
