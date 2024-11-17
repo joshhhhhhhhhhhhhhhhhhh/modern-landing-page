@@ -18,25 +18,33 @@ const Banner = () => {
       animate={{ y: 0 }}
       exit={{ y: -45 }}
     >
-      <Flex
-        justify="center"
-        h="45px"
-        w="100%"
-        align="center"
-        position="relative"
-        overflow="hidden"
-        px={4}
-        css={{
-          background: 'linear-gradient(270deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)',
-          backgroundSize: '200% 200%',
-          animation: 'gradientShift 15s ease infinite',
-          '@keyframes gradientShift': {
-            '0%': { backgroundPosition: '0% 50%' },
-            '50%': { backgroundPosition: '100% 50%' },
-            '100%': { backgroundPosition: '0% 50%' }
-          }
-        }}
-      >
+     <Flex
+  justify="center"
+  h="60px" // Increased height for a more spacious appearance
+  w="100%"
+  align="center"
+  position="relative"
+  overflow="hidden"
+  px={6} // Increased padding for a spacious look
+  css={{
+    background: 'linear-gradient(270deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%)',
+    backgroundSize: '200% 200%',
+    animation: 'gradientShift 10s ease infinite',
+    boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)', // Added box shadow for depth
+    borderRadius: '10px', // Rounded corners for a softer look
+    transition: 'transform 0.3s ease', // Transition for hover effect
+    '&:hover': {
+      transform: 'translateY(-2px)', // Slight lift on hover
+    },
+    '@keyframes gradientShift': {
+      '0%': { backgroundPosition: '0% 50%' },
+      '50%': { backgroundPosition: '100% 50%' },
+      '100%': { backgroundPosition: '0% 50%' }
+    }
+  }}
+>
+  
+
         {/* Animated particles */}
         <div className="absolute inset-0 overflow-hidden">
           {[...Array(3)].map((_, i) => (
