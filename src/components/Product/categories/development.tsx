@@ -17,7 +17,7 @@ const Development = () => {
     >
       <ProductCard icon={LuCode} title={"Code Efficiency Analyzer"}>
         Enhance your code's performance with our Code Efficiency Analyzer.
-        Optimize for speed and resource usage in real-time.
+        Optimize for speed and resource usage in real-time with AI
       </ProductCard>
 
       <ProductCard icon={LuBug} title={"Automated Bug Detector"}>
