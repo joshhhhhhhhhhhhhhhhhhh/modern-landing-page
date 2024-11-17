@@ -24,4 +24,277 @@ export const StargateColors = {
   darkGrey: "#3d434b",  // Darker grey for subtle text or backgrounds
   mediumGrey: "#8c8c8c", // Medium grey for less prominent text
   paleGrey: "#ececec",    // Pale grey for backgrounds or disabled elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  blue: "#007bff",      // Default blue for links and interactive elements
+  green: "#28a745",     // Green for success messages and indicators
+  red: "#dc3545",       // Red for delete actions or error indications
+  yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
+  
 };
