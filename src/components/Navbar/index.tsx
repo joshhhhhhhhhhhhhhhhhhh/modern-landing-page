@@ -17,7 +17,7 @@ import { StargateColors } from "#/src/utils/Colors";
 import useBannerVisibility from "#/src/utils/BannerVisibility";
 
 const NavItems = [
-  { name: "Features", href: "/#features" },
+  { name: "Features", href: "/#feature" },
   { name: "Product", href: "/#product" },
   { name: "Pricing", href: "/#pricing" },
 ];
