@@ -6,9 +6,9 @@ export const StargateColors = {
   darkBg: "#262626",    // Background color for dark mode themes
   white: "#FFFFFF",     // Pure white for text and backgrounds
   lightBg: "#d9d9d9",  // Light background for sections and cards
-  lightGrey: "#f2f2f2", // Very light grey for borders and disabled states
+ 
   
-  // Additional colors
+  // Additional colorsx
   error: "#ff4e4e",     // Error color for warning messages and alerts
   success: "#28a745",   // Success color for success messages and notifications
   warning: "#ffc107",   // Warning color for caution messages
