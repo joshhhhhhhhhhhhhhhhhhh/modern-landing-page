@@ -110,7 +110,7 @@ const Banner = () => {
             mx={4}
             className="transition-all duration-300 group-hover:tracking-wide"
           >
-            Register now and get 20% discount
+            Register now and get 20% discount now
           </Text>
 
           <motion.div
@@ -123,7 +123,7 @@ const Banner = () => {
               fontSize="lg"
               cursor="pointer"
               opacity={0.8}
-              className="transition-opacity duration-300 hover:opacity-100"
+              className="transition-opacity duration-800 hover:opacity-300"
               onClick={() => {
                 localStorage.setItem("stargate-banner", "true");
                 setShowBanner(false);
