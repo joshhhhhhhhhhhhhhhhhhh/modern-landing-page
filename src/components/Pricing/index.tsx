@@ -1,4 +1,4 @@
-"use client";
+"use client"; //for client side rendering
 import { StargateColors } from "#/src/utils/Colors";
 import {
   Badge,
