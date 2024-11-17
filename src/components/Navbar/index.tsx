@@ -172,7 +172,7 @@ const Navbar: FC = () => {
             ))}
             <Flex gap={5} mt={5}>
               <Button variant="link" color={isScrolled ? "black" : "white"}>
-                Log in
+                Log in ⚡️
               </Button>
               <Button
                 as={motion.a}
