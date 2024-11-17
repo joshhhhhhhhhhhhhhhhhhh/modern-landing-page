@@ -56,7 +56,7 @@ const Footer = () => {
         <Button
           rightIcon={<LuArrowRight />}
           as={motion.a}
-          href={"https://github.com/kisbalazspatrik/nextjs-saas-landing"}
+          href={"https://github.com/duggal1"}
           target="_b"
           whileHover={{ scale: 1.1 }}
           size={"lg"}
