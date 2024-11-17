@@ -3,6 +3,25 @@ import React from "react";
 import { ProductCard } from "../card";
 import { LuFilm, LuSpeaker, LuVideotape } from "react-icons/lu";
 
+// Define an array of products for easier management
+const products = [
+  {
+    icon: LuVideotape,
+    title: "AI Video Editor",
+    description: "Revolutionize your editing workflow with our Video Editor. Automate time-consuming tasks and enhance your videos with advanced AI tools.",
+  },
+  {
+    icon: LuFilm,
+    title: "Cinematic Effect Generator",
+    description: "Add a professional touch to your videos with our Cinematic Effect Generator. Create stunning visual effects effortlessly.",
+  },
+  {
+    icon: LuSpeaker,
+    title: "Audio Enhancement Tool",
+    description: "Improve your video's audio quality with our Audio Enhancement Tool. Achieve crystal-clear sound and perfect audio-visual synchronization.",
+  },
+];
+
 const Video = () => {
   return (
     <Grid
@@ -15,20 +34,11 @@ const Video = () => {
       gap={6}
       px={6}
     >
-      <ProductCard icon={LuVideotape} title={"AI Video Editor"}>
-        Revolutionize your editing workflow with our Video Editor. Automate
-        time-consuming tasks and enhance your videos with advanced AI tools.
-      </ProductCard>
-
-      <ProductCard icon={LuFilm} title={"Cinematic Effect Generator"}>
-        Add a professional touch to your videos with our Cinematic Effect
-        Generator. Create stunning visual effects effortlessly.
-      </ProductCard>
-
-      <ProductCard icon={LuSpeaker} title={"Audio Enhancement Tool"}>
-        Improve your video's audio quality with our Audio Enhancement Tool.
-        Achieve crystal-clear sound and perfect audio-visual synchronization.
-      </ProductCard>
+      {products.map((product, index) => (
+        <ProductCard key={index} icon={product.icon} title={product.title}>
+          {product.description}
+        </ProductCard>
+      ))}
     </Grid>
   );
 };
