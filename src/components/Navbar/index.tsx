@@ -27,7 +27,7 @@ const Navbar: FC = () => {
   const [showBanner] = useBannerVisibility("stargate-banner");
   const [activeSection, setActiveSection] = useState("");
   const { isOpen, onToggle } = useDisclosure();
-
+//jsx logics will be here outside the main jsx
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > (showBanner ? 45 : 0));
