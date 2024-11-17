@@ -1,3 +1,7 @@
+"use client"
+  
+//this is for client side rendering
+
 import { StargateColors } from "#/src/utils/Colors";
 import { Flex, Heading, Icon, Text } from "@chakra-ui/react";
 import type { ReactNode } from "react";
