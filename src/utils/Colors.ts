@@ -276,8 +276,6 @@ export const StargateColors = {
   green: "#28a745",     // Green for success messages and indicators
   red: "#dc3545",       // Red for delete actions or error indications
   yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
-  blue: "#007bff",      // Default blue for links and interactive elements
-  green: "#28a745",     // Green for success messages and indicators
   red: "#dc3545",       // Red for delete actions or error indications
   yellow: "#ffc107",    // Bright yellow for attention-grabbing elements
   blue: "#007bff",      // Default blue for links and interactive elements
