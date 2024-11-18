@@ -1,19 +1,23 @@
-import Header from "../components/Header";
-import Audience from "../components/Audience";
-import Features from "../components/Features";
-import Functions from "../components/Functions";
-import Product from "../components/Product";
-import Pricing from "../components/Pricing";
+import React, { Suspense, lazy } from 'react';
+
+const Header = lazy(() => import("../components/Header"));
+const Audience = lazy(() => import("../components/Audience"));
+const Features = lazy(() => import("../components/Features"));
+const Functions = lazy(() => import("../components/Functions"));
+const Product = lazy(() => import("../components/Product"));
+const Pricing = lazy(() => import("../components/Pricing"));
 
 export default function Home() {
   return (
     <main>
-      <Header />
-      <Features />
-      <Functions />
-      <Audience />
-      <Product />
-      <Pricing />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Header />
+        <Features />
+        <Functions />
+        <Audience />
+        <Product />
+        <Pricing />
+      </Suspense>
     </main>
   );
 }
