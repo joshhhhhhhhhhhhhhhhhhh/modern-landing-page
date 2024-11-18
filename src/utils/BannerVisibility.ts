@@ -5,7 +5,7 @@ interface UseBannerVisibilityOptions {
 }
 
 interface StoredBannerData {
-  timestamp: number; // Timestamp when the banner was hidden
+  timestamp: number; 
 }
 
 const useBannerVisibility = (
