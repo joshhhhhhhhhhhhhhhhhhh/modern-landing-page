@@ -184,7 +184,7 @@ const Navbar: FC = () => {
                 background={isScrolled ? StargateColors.primary : "white"}
                 color={isScrolled ? "white" : "black"}
               >
-                Start for free
+                Start for free🌟
               </Button>
             </Flex>
           </Flex>
