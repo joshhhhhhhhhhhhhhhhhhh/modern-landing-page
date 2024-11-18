@@ -17,7 +17,7 @@ interface LayoutProps {
 }
 
 export const viewport: Viewport = {
-  themeColor: "#e141c0",
+  themeColor: "#18adde",
   colorScheme: "light",
   initialScale: 1,
   width: "device-width",
