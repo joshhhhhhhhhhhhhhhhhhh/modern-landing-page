@@ -1,3 +1,5 @@
+"use client"
+  
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";
 import { Providers } from "#/src/components/Providers";
