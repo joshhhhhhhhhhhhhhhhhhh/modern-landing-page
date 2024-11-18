@@ -1,3 +1,5 @@
+"use  client"
+  
 import { Grid } from "@chakra-ui/react";
 import React from "react";
 import { ProductCard } from "../card";
