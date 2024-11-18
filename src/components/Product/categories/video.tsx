@@ -3,7 +3,6 @@ import React from "react";
 import { ProductCard } from "../card";
 import { LuFilm, LuSpeaker, LuVideotape } from "react-icons/lu";
 
-// Define an array of products for easier management
 const products = [
   {
     icon: LuVideotape,
