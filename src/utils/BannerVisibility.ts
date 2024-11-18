@@ -1,11 +1,11 @@
 import { useState, useEffect, Dispatch, SetStateAction } from "react";
 
 interface UseBannerVisibilityOptions {
-  expiration?: number; // Expiration time in milliseconds
+  expiration?: number; 
 }
 
 interface StoredBannerData {
-  timestamp: number; // Timestamp when the banner was hidden
+  timestamp: number; 
 }
 
 const useBannerVisibility = (
