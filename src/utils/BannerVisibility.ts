@@ -1,7 +1,7 @@
 import { useState, useEffect, Dispatch, SetStateAction } from "react";
 
 interface UseBannerVisibilityOptions {
-  expiration?: number; // Expiration time in milliseconds
+  expiration?: number; 
 }
 
 interface StoredBannerData {
