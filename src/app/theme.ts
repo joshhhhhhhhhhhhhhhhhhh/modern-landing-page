@@ -22,7 +22,7 @@ const colors = {
   }
 };
 
-// Extend the theme
+
 export const customTheme = extendTheme({
   fonts: {
     heading: inter.style.fontFamily,
