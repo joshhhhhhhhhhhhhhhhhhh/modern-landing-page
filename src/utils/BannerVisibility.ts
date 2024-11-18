@@ -68,7 +68,7 @@ const useBannerVisibility = (
     localStorage.setItem(storageKey, JSON.stringify({ timestamp: Date.now() }));
   };
 
-  return [showBanner, handleHideBanner]; // Return a function to hide the banner
+  return [showBanner, handleHideBanner];
 };
 
 export default useBannerVisibility;
