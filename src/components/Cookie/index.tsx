@@ -1,6 +1,6 @@
 "use client"
   
-//for client side rendering 
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import useCookieVisibility from "#/src/utils/CookieVisibility";
